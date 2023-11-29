@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Proxy Redirect",
+    "name": "Catlibgo!",
     "version": "1.0",
-    "description": "Redirects the current tab to a proxy server",
+    "description": "현재 페이지를 가톨릭대학교 도서관 프록시로 재접속 합니다.",
     "icons": {
         "48": "icon.png"
     },
