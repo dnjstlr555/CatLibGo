@@ -3,9 +3,9 @@ chrome.action.onClicked.addListener(function(tab) {
         if (tabs.length > 0) {
           const currentTab = tabs[0];
           let originalUrl = currentTab.url;
-          let proxy='https://libproxy.catholic.ac.kr/_Lib_Proxy_Url/'
+          let proxy='https://libproxy.catholic.ac.kr/_Lib_Proxy_Url/';
           if(originalUrl.includes('libproxy.catholic.ac.kr')) {
-            proxy='https://sci-hub.se/'
+            proxy='https://sci-hub.kr/'
             originalUrl = originalUrl.replace('.libproxy.catholic.ac.kr', '');
             let splited=originalUrl.substr(originalUrl.indexOf("https://")+"https://".length).split("/")
             splited[0]=splited[0].replaceAll("-",".")

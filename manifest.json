@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "CatLibGo",
-  "version": "1.0",
+  "version": "1.1",
   "description": "현재 페이지를 가톨릭대학교 도서관 프록시로 재접속 합니다.",
   "permissions": ["activeTab"],
   "icons": {
